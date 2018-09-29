@@ -1,7 +1,7 @@
 from sqlalchemy import *
 from datetime import datetime
 
-db = create_engine('mysql+pymysql://shindek:Hare*108Krishn@@localhost:3306/kharchadb');
+db = create_engine('mysql+pymysql://username:password@localhost:3306/dbname');
 db.echo = False
 
 #TODO: depending upon food i m choosing can predict health and future hospital expence prediction
